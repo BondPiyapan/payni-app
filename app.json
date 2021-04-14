@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "PayNi",
+    "slug": "PayNi",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "scheme": "payni",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.intercloud.payni",
+      "buildNumber": "101"
+    },
+    "android": {
+      "package": "com.intercloud.payni",
+      "versionCode": 101,
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
